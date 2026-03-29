@@ -1,0 +1,71 @@
+# =========================
+# Gradle & Build
+# =========================
+.gradle/
+build/
+**/build/
+.cxx/
+.externalNativeBuild/
+
+# =========================
+# IDE (Android Studio)
+# =========================
+.idea/
+*.iml
+.kotlин/
+
+# =========================
+# Local config
+# =========================
+local.properties
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# APK / AAB outputs
+# =========================
+*.apk
+*.aab
+
+# =========================
+# Python (Chaquopy)
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VERY IMPORTANT (your project specifically)
+app/build/python/
+app/build/pip/
+app/build/tmp/
+app/build/generated/
+
+# =========================
+# Native / FFmpeg temp
+# =========================
+*.so
+*.obj
+
+# =========================
+# Keystore (DO NOT LEAK THIS EVER)
+# =========================
+*.jks
+*.keystore
+
+# =========================
+# Misc junk
+# =========================
+*.tmp
+*.bak
+*.swp
+captures/
